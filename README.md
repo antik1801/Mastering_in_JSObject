@@ -9,7 +9,9 @@
 <li>Object.freeze(obj)</li>
 <li>for(const key in object) => loop through an object</li>
 <li>JSON.Stringify(object)</li>
-
+<li>object.functionName.call(thisObject,parameters...)</li>
+<li>object.functionName.apply(thisObject,[parameters...])</li>
+ 
 
 ```
 3 ways to access in objects
