@@ -11,7 +11,12 @@
 <li>JSON.Stringify(object)</li>
 <li>object.functionName.call(thisObject,parameters...)</li>
 <li>object.functionName.apply(thisObject,[parameters...])</li>
- 
+<li>JSON.parse(JSON.stringify(data)) ===> Object copy proper method</li>
+
+```
+const data ={name:"Alice", age:26}
+const dataCopy = JSON.parse(JSON.stringify(data))
+```
 
 ```
 3 ways to access in objects
