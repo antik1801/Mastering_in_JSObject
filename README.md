@@ -7,3 +7,29 @@
 <li>delete obj.name</li>
 <li>object.seal(obj)</li>
 <li>Object.freeze(obj)</li>
+<li>for(const key in object) => loop through an object</li>
+<li>JSON.Stringify(object)</li>
+
+
+```
+3 ways to access in objects
+1. bottle.element
+2. bottle['key']
+3. bottle[value]
+```
+```
+function compareObject(first,second){
+    const firstKeys = Object.keys(first);
+    const secondKeys = Object.keys(second);
+    if (firstKeys.length === secondKeys.length) {
+       for (const key of firstKeys) {
+        if (first[key] !== second[key]) {
+            return false;
+        } 
+    }
+    return true;
+    }
+
+}
+```
+

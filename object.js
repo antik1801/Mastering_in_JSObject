@@ -32,3 +32,4 @@ class person2{
 }
 const person3 = new person2(56);
 console.log(person3);
+
